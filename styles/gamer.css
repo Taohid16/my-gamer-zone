@@ -37,9 +37,10 @@ nav{
 }
 .nav-desc a{
     text-decoration: none;
-    color: #3C354F;
+    color: #000;
     font-size: .8rem;
     font-weight: 500;
+    align-items: center;
 }
 .nav-title h3{
     font-size: 2rem;
@@ -49,11 +50,13 @@ nav{
     color: palevioletred;
 }
 .nav-img{
-    background-color: rgba(11, 2, 35, 0.10);
+    background-color: palevioletred;
     align-items: center;
     padding: .2rem;
     font-size: 1rem;
     font-weight: 500;
+    color: #fff;
+    
 }
 .banner{
     max-width: 100%;
@@ -72,7 +75,7 @@ nav{
     margin-bottom: 0%;
 }
 .banner-desc{
-    /* background-image: url(/images/Group-14.png); */
+   
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -234,7 +237,7 @@ figcaption{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 30px;
 }
 .games-demo-first{
@@ -301,6 +304,22 @@ footer .footer-img {
     margin-left: 30px;
     margin-top: 20px;
 }
+.online-game-img:hover{
+    border: 2px solid #534C64;
+    cursor: pointer;
+}
+
+.games-demo:hover{
+    border: 2px solid palevioletred;
+    
+   
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
 
 @media screen and (max-width: 576px) {
     nav,.nav-title,.nav-img,.banner,.online-games-img,.play-instantly,.nav-desc {
